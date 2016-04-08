@@ -17,4 +17,3 @@ def create_snapshot(instance_name):
 
 def lambda_handler(event, context):
     create_snapshot(event['Name'])
-
